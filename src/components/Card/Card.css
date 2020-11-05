@@ -1,8 +1,8 @@
 .Card {
-  border: 2px solid blue;
+  border: 2px solid skyblue;
   margin: 18px;
   width: 250px;
 }
 .btn-color {
-  background-color: blue;
+  background-color: skyblue;
 }
