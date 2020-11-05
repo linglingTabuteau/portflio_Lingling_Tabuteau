@@ -5,10 +5,12 @@ const Toolbar = (props) => {
   return (
     <header className="Toolbar">
       {/* <DrawerToggle clicked={props.sideDrawerTogle} /> */}
-      <div className="Logo">Logo</div>
-      <nav>Projetcts Done</nav>
-      <nav>On going projects</nav>
-      <nav>All projects</nav>
+      {/* <div className="Logo"> */}
+      <img className="Logo" src="./images/smiling-pig.png" alt="smiling-pig" />
+      {/* </div> */}
+      <nav onClick={() => props.filterCards("done")}>PROJECTS DONE</nav>
+      <nav onClick={() => props.filterCards("ongoing")}>ON GOING PROJECTS</nav>
+      <nav onClick={() => props.filterCards("")}>ALL PROJECTS</nav>
     </header>
   );
 };
