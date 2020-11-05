@@ -7,51 +7,51 @@ let cardsList = [
   {
     projectName: "Ghibli Film",
     projectDescription:
-      "Full Stack Project on React, Redux, Node.js, API, and MySql",
+      "Full Stack Project on React, Redux, Node.js, REST API, and MySql",
     link: "https://lingling-tabuteau-movie-list.herokuapp.com/",
     img: "./images/ghibli.png",
     status: "done",
   },
   {
     projectName: "Game Dice",
-    projectDescription: "Javascript, HTML, CSS",
+    projectDescription: "Vanilla JavaScript, HTML, CSS",
     link: "https://game-dice-lingling-tabuteau.herokuapp.com/",
     img: "./images/dice_.jpg",
     status: "done",
   },
   {
     projectName: "Budget Management",
-    projectDescription:
-      "Javascript, HTML, CSS & simple way to manage your budget",
+    projectDescription: "Vanilla JavaScript, HTML, CSS",
     link: "https://budget-project-ltabuteau.herokuapp.com/",
     img: "./images/budget.jpg",
     status: "done",
   },
   {
-    projectName: "Site Vitrine ANEKO - ongoning",
-    projectDescription: "site vitrine for start-up ANEKO",
-    link: "ongoning",
+    projectName: "Site Vitrine ANEKO",
+    projectDescription:
+      "Showcase site for the start-up company ANEKO - ongoing",
+    link: "ongoing",
     img: "./images/site-vitrine.jpeg",
     status: "ongoing",
   },
   {
     projectName: "Sharing your experiences",
     projectDescription: "Anonymous social network - ongoing",
-    link: "ongoning",
+    link: "ongoing",
     img: "./images/sharing.jpeg",
     status: "ongoing",
   },
   {
-    projectName: "E-commerce site - ongoning",
+    projectName: "E-commerce site",
     projectDescription: "E-commerce site - ongoing",
-    link: "ongoning",
+    link: "ongoing",
     img: "./images/e-commerce.jpeg",
     status: "ongoing",
   },
   {
     projectName: "Linkedin Lingling Tabuteau",
     projectDescription:
-      "More information about my career. Don't hesite to contact me if my profil is intering for you",
+      "More information about my career. Don't hesitate to contact me if my profile sounds interesting",
     link: "https://www.linkedin.com/in/lingling-tabuteau/",
     img: "./images/linkedin_.jpg",
     status: "done",

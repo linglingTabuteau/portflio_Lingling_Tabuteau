@@ -8,9 +8,15 @@ const Toolbar = (props) => {
       {/* <div className="Logo"> */}
       <img className="Logo" src="./images/smiling-pig.png" alt="smiling-pig" />
       {/* </div> */}
-      <nav onClick={() => props.filterCards("done")}>PROJECTS DONE</nav>
-      <nav onClick={() => props.filterCards("ongoing")}>ON GOING PROJECTS</nav>
-      <nav onClick={() => props.filterCards(null)}>ALL PROJECTS</nav>
+      <nav onClick={() => props.filterCards("done")} className="Nav">
+        PROJECTS DONE
+      </nav>
+      <nav onClick={() => props.filterCards("ongoing")} className="Nav">
+        ON GOING PROJECTS
+      </nav>
+      <nav onClick={() => props.filterCards(null)} className="Nav">
+        ALL PROJECTS
+      </nav>
     </header>
   );
 };

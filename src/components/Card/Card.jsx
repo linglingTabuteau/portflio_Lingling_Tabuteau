@@ -8,7 +8,7 @@ const Card = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.projectName}</h5>
         <p className="card-text">{props.projectDescription}</p>
-        <a href={props.link} target="_blank" class="btn btn-info btn-color">
+        <a href={props.link} target="_blank" className="btn btn-info btn-color">
           Go to Project
         </a>
       </div>

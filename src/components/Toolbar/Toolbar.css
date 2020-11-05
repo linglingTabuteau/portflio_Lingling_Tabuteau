@@ -20,3 +20,7 @@
 .Logo {
   height: 85%;
 }
+
+.Nav {
+  cursor: pointer;
+}
