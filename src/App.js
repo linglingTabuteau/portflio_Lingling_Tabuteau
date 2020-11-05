@@ -6,21 +6,23 @@ import Cards from "./components/Cards/Cards";
 let cardsList = [
   {
     projectName: "Ghibli Film",
-    projectDescription: "Ghibli Film Adventure",
+    projectDescription:
+      "Full Stack Project on React, Redux, Node.js, API, and MySql",
     link: "https://lingling-tabuteau-movie-list.herokuapp.com/",
     img: "./images/ghibli.png",
     status: "done",
   },
   {
     projectName: "Game Dice",
-    projectDescription: "Funny small game Just have fun Enjoy your game",
+    projectDescription: "Javascript, HTML, CSS",
     link: "https://game-dice-lingling-tabuteau.herokuapp.com/",
     img: "./images/dice_.jpg",
     status: "done",
   },
   {
     projectName: "Budget Management",
-    projectDescription: "simple way to manage your budget",
+    projectDescription:
+      "Javascript, HTML, CSS & simple way to manage your budget",
     link: "https://budget-project-ltabuteau.herokuapp.com/",
     img: "./images/budget.jpg",
     status: "done",
@@ -69,7 +71,9 @@ const App = (props) => {
   const [cardState, setCardState] = useState(cardsList);
 
   const filterCardsHandler = (status) => {
-    let filterCards = cardsList.filter((card) => card.status === status);
+    let filterCards = cardsList.filter(
+      (card) => !status || card.status === status
+    );
     setCardState(filterCards);
   };
 

@@ -10,7 +10,7 @@ const Toolbar = (props) => {
       {/* </div> */}
       <nav onClick={() => props.filterCards("done")}>PROJECTS DONE</nav>
       <nav onClick={() => props.filterCards("ongoing")}>ON GOING PROJECTS</nav>
-      <nav onClick={() => props.filterCards("")}>ALL PROJECTS</nav>
+      <nav onClick={() => props.filterCards(null)}>ALL PROJECTS</nav>
     </header>
   );
 };
